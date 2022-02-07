@@ -1,0 +1,97 @@
+/*This file contains the stylesheet for Module 3 Assignment by Delaney Rua */
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	color: #091638;
+	font-family: 'Varela Round', sans-serif;
+}
+
+body {
+	background-color: #FFC300;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #900C3F;
+  	border-radius: 0;
+  	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+
+
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  color: #fff;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+  background-color: rgba(178, 178, 178, 0.25);
+
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  margin-bottom: 15px;
+}
+/* END HEADER STYLES */
+
+/*BODY STYLES*/
+h2 {
+	font-size: 1.7em;
+}
+
+#chicken-div, #beef-div, #sushi-div {
+	background-color: #e4e6ed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 6px;
+	margin: 10px;
+	box-shadow: 0 0 50px #8F7724;
+  	border: 1px solid #B2B2B2;
+}
+
+.tile-title {
+	font-size: 1.5em;
+}
+
+.food-description {
+	list-style-position: inside;
+	font-style: italic;
+}
+
+.panel-footer{
+	margin-top: 20px;
+}
+
+/* END OF BODY STYLES */
